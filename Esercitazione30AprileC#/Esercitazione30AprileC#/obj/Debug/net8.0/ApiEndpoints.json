@@ -1,0 +1,196 @@
+[
+  {
+    "ContainingType": "Esercitazione30AprileC_.Controllers.MessaggioController",
+    "Method": "InserisciMessaggio",
+    "RelativePath": "Messaggio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stanza",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mex",
+        "Type": "Esercitazione30AprileC_.dtos.MessaggioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Esercitazione30AprileC_.Controllers.MessaggioController",
+    "Method": "RecuperaPerStanza",
+    "RelativePath": "Messaggio/{stanza}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stanza",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Esercitazione30AprileC_.Controllers.RoomController",
+    "Method": "Inserisci",
+    "RelativePath": "Room",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Esercitazione30AprileC_.dtos.RoomDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Esercitazione30AprileC_.Controllers.RoomController",
+    "Method": "GetAll",
+    "RelativePath": "Room",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Esercitazione30AprileC_.Controllers.RoomController",
+    "Method": "EliminaStanza",
+    "RelativePath": "Room/{codice}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codice",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Esercitazione30AprileC_.Controllers.RoomController",
+    "Method": "AggiungiPartecipante",
+    "RelativePath": "Room/aggiungi_partecipante",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stanza",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "utente",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Esercitazione30AprileC_.Controllers.RoomController",
+    "Method": "DettaglioGruppo",
+    "RelativePath": "Room/dettaglio/{codice}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codice",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Esercitazione30AprileC_.Controllers.RoomController",
+    "Method": "CreaGlobal",
+    "RelativePath": "Room/global",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Esercitazione30AprileC_.Controllers.UtenteController",
+    "Method": "Elimina",
+    "RelativePath": "Utente",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "utente",
+        "Type": "Esercitazione30AprileC_.dtos.UtenteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Esercitazione30AprileC_.Controllers.UtenteController",
+    "Method": "RecuperaTutti",
+    "RelativePath": "Utente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Esercitazione30AprileC_.Controllers.UtenteController",
+    "Method": "Loggati",
+    "RelativePath": "Utente/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objLogin",
+        "Type": "Esercitazione30AprileC_.dtos.UtenteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Esercitazione30AprileC_.Controllers.UtenteController",
+    "Method": "DammiInformazioniUtente",
+    "RelativePath": "Utente/profiloutente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Esercitazione30AprileC_.Controllers.UtenteController",
+    "Method": "Register",
+    "RelativePath": "Utente/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "obj",
+        "Type": "Esercitazione30AprileC_.dtos.UtenteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
