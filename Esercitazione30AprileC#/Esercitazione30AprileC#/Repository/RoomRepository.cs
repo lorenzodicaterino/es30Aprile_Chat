@@ -58,6 +58,31 @@ namespace Esercitazione30AprileC_.Repository
             }
         }
 
+        public bool RimuoviPartecipante(Room p, string utente)
+        {
+            Room? temp = this.GetByNome(p.Nome);
+
+
+            if (temp != null)
+            {
+                temp.Partecipanti.Remove(utente);
+            }
+            else
+                return false;
+
+            var filter = Builders<Room>.Filter.Eq(i => i.RoomID, temp.RoomID);
+            try
+            {
+                room.ReplaceOne(filter, temp);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                return false;
+            }
+        }
+
         public bool Update(Room item)
         {
             Room? temp = this.GetByNome(item.Nome);
@@ -122,6 +147,11 @@ namespace Esercitazione30AprileC_.Repository
                 DataCreazione = DateOnly.MinValue,
                 Deleted = null
             });
+        }
+
+        public List<Room> RoomPerUtente(string username)
+        {
+            return room.Find(r => r.Partecipanti.Contains(username)).ToList();
         }
 
     }

@@ -1,7 +1,10 @@
 ﻿using Esercitazione30AprileC_.dtos;
 using Esercitazione30AprileC_.Models;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using ZstdSharp.Unsafe;
 
 namespace Esercitazione30AprileC_.Repository
@@ -95,6 +98,40 @@ namespace Esercitazione30AprileC_.Repository
         public Utente? GetByObjectId(ObjectId id)
         {
             throw new NotImplementedException();
+        }
+
+        public bool IsUsernameInToken(string jwtToken, string username)
+        {
+            // Verifica che il token non sia vuoto
+            if (string.IsNullOrEmpty(jwtToken))
+            {
+                throw new ArgumentException("Il token JWT non può essere vuoto o nullo.", nameof(jwtToken));
+            }
+
+            // Verifica che il nome utente non sia vuoto
+            if (string.IsNullOrEmpty(username))
+            {
+                throw new ArgumentException("Il nome utente non può essere vuoto o nullo.", nameof(username));
+            }
+
+            try
+            {
+                // Decodifica il token JWT
+                var tokenHandler = new JwtSecurityTokenHandler();
+                var token = tokenHandler.ReadJwtToken(jwtToken);
+
+                // Cerca il claim Sub che corrisponde al nome utente
+                Claim claim = token.Claims.FirstOrDefault(c => c.Type == JwtRegisteredClaimNames.Sub && c.Value == username);
+
+                // Se il claim Sub è presente con lo stesso valore del nome utente, restituisce true, altrimenti false
+                return claim != null;
+            }
+            catch (Exception ex)
+            {
+                // Gestione degli errori
+                Console.WriteLine($"Si è verificato un errore durante la decodifica del token JWT: {ex.Message}");
+                return false;
+            }
         }
     }
 }

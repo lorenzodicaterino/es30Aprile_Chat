@@ -8,11 +8,6 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "stanza",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
         "Name": "mex",
         "Type": "Esercitazione30AprileC_.dtos.MessaggioDTO",
         "IsRequired": true
@@ -80,21 +75,58 @@
   },
   {
     "ContainingType": "Esercitazione30AprileC_.Controllers.RoomController",
+    "Method": "ListePerUtente",
+    "RelativePath": "Room/{username}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Esercitazione30AprileC_.Controllers.RoomController",
+    "Method": "AbbandonaGruppo",
+    "RelativePath": "Room/abbandona/{gruppo}/{utente}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "utente",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "gruppo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Esercitazione30AprileC_.Controllers.RoomController",
     "Method": "AggiungiPartecipante",
-    "RelativePath": "Room/aggiungi_partecipante",
-    "HttpMethod": "POST",
+    "RelativePath": "Room/aggiungi_partecipante/{stanza}/{utente}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "stanza",
         "Type": "System.String",
-        "IsRequired": false
+        "IsRequired": true
       },
       {
         "Name": "utente",
         "Type": "System.String",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -126,16 +158,16 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Esercitazione30AprileC_.Controllers.UtenteController",
-    "Method": "Elimina",
-    "RelativePath": "Utente",
-    "HttpMethod": "DELETE",
+    "ContainingType": "Esercitazione30AprileC_.Controllers.RoomController",
+    "Method": "StanzeACuiNonAppartiene",
+    "RelativePath": "Room/non/{username}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "utente",
-        "Type": "Esercitazione30AprileC_.dtos.UtenteDTO",
+        "Name": "username",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -149,6 +181,43 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Esercitazione30AprileC_.Controllers.UtenteController",
+    "Method": "CheckJwt",
+    "RelativePath": "Utente/check_jwt/{jwt}/{username}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jwt",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Esercitazione30AprileC_.Controllers.UtenteController",
+    "Method": "Elimina",
+    "RelativePath": "Utente/elimina",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "utente",
+        "Type": "Esercitazione30AprileC_.dtos.UtenteDTO",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

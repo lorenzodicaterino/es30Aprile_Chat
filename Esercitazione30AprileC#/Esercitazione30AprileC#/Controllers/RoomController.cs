@@ -15,7 +15,7 @@ namespace Esercitazione30AprileC_.Controllers
         {
             this.service = service;
         }
-       
+
         [HttpPost]
         public IActionResult Inserisci(RoomDTO dto)
         {
@@ -31,7 +31,7 @@ namespace Esercitazione30AprileC_.Controllers
                 });
         }
 
-        [HttpPost("aggiungi_partecipante")]
+        [HttpGet("aggiungi_partecipante/{stanza}/{utente}")]
         public IActionResult AggiungiPartecipante(string stanza, string utente)
         {
             if (service.AggiungiPartecipante(stanza, utente))
@@ -78,8 +78,47 @@ namespace Esercitazione30AprileC_.Controllers
             service.CreaGlobal();
             return Ok(new Risposta()
             {
-                Status="SUCCESS"
+                Status = "SUCCESS"
             });
+        }
+
+        [HttpGet("{username}")]
+        public IActionResult ListePerUtente(string username)
+        {
+            return Ok(new Risposta()
+            {
+                Status = "SUCCESS",
+                Data = service.ListePerUtente(username)
+            });
+        }
+
+        [HttpGet("non/{username}")]
+        public IActionResult StanzeACuiNonAppartiene(string username)
+        {
+            return Ok(new Risposta()
+            {
+                Status = "SUCCESS",
+                Data = service.NonAppartiene(username)
+            });
+        }
+
+        [HttpGet("abbandona/{gruppo}/{utente}")]
+        public IActionResult AbbandonaGruppo(string utente, string gruppo)
+        {
+            if (service.AbbandonaGruppo(utente, gruppo))
+            {
+                return Ok(new Risposta()
+                {
+                    Status = "SUCCESS"
+                });
+            }
+            else
+            {
+                return Ok(new Risposta()
+                {
+                    Status = "ERROR"
+                });
+            }
         }
     }
 }

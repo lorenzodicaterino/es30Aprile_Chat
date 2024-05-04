@@ -20,6 +20,28 @@ namespace Esercitazione30AprileC_.Services
             this.utente = utente;
         }
 
+        public List<RoomDTO>? NonAppartiene(string username)
+        {
+            List<Room> rooms = repo.GetAll();
+            
+            List<RoomDTO> dtos = new List<RoomDTO>();
+
+            foreach(Room r in rooms)
+            {
+                if (!r.Partecipanti.Contains(username))
+                    dtos.Add(new RoomDTO()
+                    {
+                        Nom = r.Nome,
+                        Cre = r.Creatore,
+                        Dat = r.DataCreazione,
+                        Des = r.Descrizione,
+                        Mes = r.Messaggi,
+                        Par = r.Partecipanti
+                    });
+            }
+            return dtos;
+        }
+
         
 
         public bool Inserisci (RoomDTO dto)
@@ -145,6 +167,28 @@ namespace Esercitazione30AprileC_.Services
         public bool CreaGlobal()
         {
             return repo.CreateGlobal();
+        }
+
+        public List<RoomDTO>ListePerUtente(string username)
+        {
+            return repo.RoomPerUtente(username).Select(r => new RoomDTO()
+            {
+                Nom = r.Nome,
+                Des = r.Descrizione,
+                Dat = r.DataCreazione,
+                Cre = r.Creatore,
+                Mes = null,
+                Par = null
+            }).ToList();
+        }
+
+        public bool AbbandonaGruppo(string utente, string gruppo)
+        {
+            Room r = repo.GetByNome(gruppo);
+            if (repo.RimuoviPartecipante(r, utente))
+                return true;
+            else
+                return false;
         }
     }
 }

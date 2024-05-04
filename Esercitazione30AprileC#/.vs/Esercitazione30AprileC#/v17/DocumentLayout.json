@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\repository\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\repository\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\repository\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\repository\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\repository\\messaggiorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\repository\\messaggiorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\services\\messaggioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\services\\messaggioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\controllers\\messaggiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\controllers\\messaggiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\dtos\\messaggiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\dtos\\messaggiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\dtos\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\dtos\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\controllers\\utentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\controllers\\utentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\services\\utenteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,12 +51,16 @@
       "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\repository\\utenterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\controllers\\messaggiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\controllers\\messaggiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\filters\\autorizzazioneutente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\filters\\autorizzazioneutente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\controllers\\utentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\controllers\\utentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\dtos\\utentedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\dtos\\utentedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,67 +90,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UtenteService.cs",
-              "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Services\\UtenteService.cs",
-              "RelativeDocumentMoniker": "Esercitazione30AprileC#\\Services\\UtenteService.cs",
-              "ToolTip": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Services\\UtenteService.cs",
-              "RelativeToolTip": "Esercitazione30AprileC#\\Services\\UtenteService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T17:58:56.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UtenteController.cs",
-              "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Controllers\\UtenteController.cs",
-              "RelativeDocumentMoniker": "Esercitazione30AprileC#\\Controllers\\UtenteController.cs",
-              "ToolTip": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Controllers\\UtenteController.cs",
-              "RelativeToolTip": "Esercitazione30AprileC#\\Controllers\\UtenteController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T17:47:49.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "RoomController.cs",
               "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Controllers\\RoomController.cs",
               "RelativeDocumentMoniker": "Esercitazione30AprileC#\\Controllers\\RoomController.cs",
               "ToolTip": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Controllers\\RoomController.cs",
               "RelativeToolTip": "Esercitazione30AprileC#\\Controllers\\RoomController.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAUwDUAAAAjAAAA",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAAACMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T17:46:33.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Program.cs",
-              "RelativeDocumentMoniker": "Esercitazione30AprileC#\\Program.cs",
-              "ToolTip": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Program.cs",
-              "RelativeToolTip": "Esercitazione30AprileC#\\Program.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAgwDIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T17:06:02.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RoomRepository.cs",
-              "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Repository\\RoomRepository.cs",
-              "RelativeDocumentMoniker": "Esercitazione30AprileC#\\Repository\\RoomRepository.cs",
-              "ToolTip": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Repository\\RoomRepository.cs",
-              "RelativeToolTip": "Esercitazione30AprileC#\\Repository\\RoomRepository.cs",
-              "ViewState": "AQIAAGcAAAAAAAAAAAAAAHwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T17:27:43.91Z",
               "EditorCaption": ""
             },
             {
@@ -133,9 +109,86 @@
               "RelativeDocumentMoniker": "Esercitazione30AprileC#\\Services\\RoomService.cs",
               "ToolTip": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Services\\RoomService.cs",
               "RelativeToolTip": "Esercitazione30AprileC#\\Services\\RoomService.cs",
-              "ViewState": "AQIAAIQAAAAAAAAAAAAQwJMAAAAJAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAIwEMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T17:29:48.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MessaggioService.cs",
+              "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Services\\MessaggioService.cs",
+              "RelativeDocumentMoniker": "Esercitazione30AprileC#\\Services\\MessaggioService.cs",
+              "ToolTip": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Services\\MessaggioService.cs",
+              "RelativeToolTip": "Esercitazione30AprileC#\\Services\\MessaggioService.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T08:44:47.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MessaggioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\dtos\\MessaggioDTO.cs",
+              "RelativeDocumentMoniker": "Esercitazione30AprileC#\\dtos\\MessaggioDTO.cs",
+              "ToolTip": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\dtos\\MessaggioDTO.cs",
+              "RelativeToolTip": "Esercitazione30AprileC#\\dtos\\MessaggioDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T08:21:01.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoomDTO.cs",
+              "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\dtos\\RoomDTO.cs",
+              "RelativeDocumentMoniker": "Esercitazione30AprileC#\\dtos\\RoomDTO.cs",
+              "ToolTip": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\dtos\\RoomDTO.cs",
+              "RelativeToolTip": "Esercitazione30AprileC#\\dtos\\RoomDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T08:15:48.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoomRepository.cs",
+              "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Repository\\RoomRepository.cs",
+              "RelativeDocumentMoniker": "Esercitazione30AprileC#\\Repository\\RoomRepository.cs",
+              "ToolTip": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Repository\\RoomRepository.cs",
+              "RelativeToolTip": "Esercitazione30AprileC#\\Repository\\RoomRepository.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAgwHwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T17:27:43.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MessaggioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Repository\\MessaggioRepository.cs",
+              "RelativeDocumentMoniker": "Esercitazione30AprileC#\\Repository\\MessaggioRepository.cs",
+              "ToolTip": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Repository\\MessaggioRepository.cs",
+              "RelativeToolTip": "Esercitazione30AprileC#\\Repository\\MessaggioRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T12:58:36.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\appsettings.json",
+              "RelativeDocumentMoniker": "Esercitazione30AprileC#\\appsettings.json",
+              "ToolTip": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\appsettings.json",
+              "RelativeToolTip": "Esercitazione30AprileC#\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-03T07:51:38.891Z",
               "EditorCaption": ""
             },
             {
@@ -146,23 +199,82 @@
               "RelativeDocumentMoniker": "Esercitazione30AprileC#\\Controllers\\MessaggioController.cs",
               "ToolTip": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Controllers\\MessaggioController.cs",
               "RelativeToolTip": "Esercitazione30AprileC#\\Controllers\\MessaggioController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCUAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T17:47:50.434Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
+              "Title": "UtenteController.cs",
+              "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Controllers\\UtenteController.cs",
+              "RelativeDocumentMoniker": "Esercitazione30AprileC#\\Controllers\\UtenteController.cs",
+              "ToolTip": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Controllers\\UtenteController.cs",
+              "RelativeToolTip": "Esercitazione30AprileC#\\Controllers\\UtenteController.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAiwG8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T17:47:49.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "UtenteRepository.cs",
               "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Repository\\UtenteRepository.cs",
               "RelativeDocumentMoniker": "Esercitazione30AprileC#\\Repository\\UtenteRepository.cs",
               "ToolTip": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Repository\\UtenteRepository.cs",
               "RelativeToolTip": "Esercitazione30AprileC#\\Repository\\UtenteRepository.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB4AAAAAAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAiwGkAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T17:58:48.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T17:58:48.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UtenteService.cs",
+              "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Services\\UtenteService.cs",
+              "RelativeDocumentMoniker": "Esercitazione30AprileC#\\Services\\UtenteService.cs",
+              "ToolTip": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Services\\UtenteService.cs",
+              "RelativeToolTip": "Esercitazione30AprileC#\\Services\\UtenteService.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAqwJEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T17:58:56.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AutorizzazioneUtente.cs",
+              "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Filters\\AutorizzazioneUtente.cs",
+              "RelativeDocumentMoniker": "Esercitazione30AprileC#\\Filters\\AutorizzazioneUtente.cs",
+              "ToolTip": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Filters\\AutorizzazioneUtente.cs",
+              "RelativeToolTip": "Esercitazione30AprileC#\\Filters\\AutorizzazioneUtente.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T16:07:12.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UtenteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\dtos\\UtenteDTO.cs",
+              "RelativeDocumentMoniker": "Esercitazione30AprileC#\\dtos\\UtenteDTO.cs",
+              "ToolTip": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\dtos\\UtenteDTO.cs",
+              "RelativeToolTip": "Esercitazione30AprileC#\\dtos\\UtenteDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T08:15:01.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Program.cs",
+              "RelativeDocumentMoniker": "Esercitazione30AprileC#\\Program.cs",
+              "ToolTip": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Program.cs",
+              "RelativeToolTip": "Esercitazione30AprileC#\\Program.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T17:06:02.669Z"
             }
           ]
         }

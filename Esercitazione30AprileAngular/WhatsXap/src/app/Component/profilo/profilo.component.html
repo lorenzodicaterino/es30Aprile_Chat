@@ -1,0 +1,72 @@
+<div style="margin-top: 23px">
+  <table style="width: 100%">
+    <tr>
+      <td rowspan="2">
+        <img
+          src="https://picsum.photos/300/350"
+          style="border: 10px; border: solid black"
+        />
+      </td>
+      <td colspan="4" style="color: white">sos</td>
+      <td style="text-align: center">
+        <h2>{{ username }}</h2>
+        <h6 style="color: darkgray; font-size: small">{{ codice }}</h6>
+      </td>
+    </tr>
+  </table>
+  <div style="margin-top: 50px; text-align: center">
+    <a
+      class="btn btn-success"
+      style="margin-left: 345px; border: 1px"
+      href="/create"
+      ><h4
+        style="
+          display: flex;
+          justify-content: center;
+          color: white;
+          margin-top: 5px;
+        "
+      >
+        Inserisci nuova stanza
+      </h4></a
+    >
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <table class="table" style="margin-left: 160px; margin-top: 20px">
+            <thead style="text-align: center">
+              <th><h2>Lista delle stanze a cui fai parte</h2></th>
+            </thead>
+            <tbody>
+              <tr *ngFor="let room of rooms" style="text-align: center">
+                <td style="margin-top: 4px">
+                  <h4>
+                    <a href="/chat/{{ room.nom }}"
+                      >{{ room.nom }} - {{ room.des }}</a
+                    >
+                  </h4>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col">
+          <table class="table" style="margin-left: 160px; margin-top: 20px">
+            <thead style="text-align: center">
+              <th><h2>Lista delle stanze disponibili</h2></th>
+            </thead>
+            <tbody>
+              <tr *ngFor="let room of tutte" style="text-align: center">
+                <td style="margin-top: 4px">
+                  <button (click)="modaleAggiunta(room.nom)">
+                    <h4>{{ room.nom }} - {{ room.des }}</h4>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

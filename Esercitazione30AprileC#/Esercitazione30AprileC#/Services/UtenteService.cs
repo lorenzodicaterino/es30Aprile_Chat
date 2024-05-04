@@ -136,5 +136,10 @@ namespace Esercitazione30AprileC_.Services
         {
             return room.AggiungiPartecipante("Global", nome);
         }
+
+        public bool CheckJwt(string jwt, string username)
+        {
+            return _repo.IsUsernameInToken(jwt, username);
+        }
     }
 }

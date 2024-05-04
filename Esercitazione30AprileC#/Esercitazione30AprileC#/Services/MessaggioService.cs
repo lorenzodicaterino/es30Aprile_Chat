@@ -20,10 +20,10 @@ namespace Esercitazione30AprileC_.Services
             this.room = room;
         }
 
-        public bool InserisciMessaggio(string stanza, MessaggioDTO mex)
+        public bool InserisciMessaggio(MessaggioDTO mex)
         {
             Utente u = utente.GetByNome(mex.NomUte);
-            Room r = room.GetByNome(stanza);
+            Room r = room.GetByNome(mex.Sta);
 
             if(u is not null && r is not null && room.UtenteContenuto(r.Nome,u.Username))
             {
@@ -69,7 +69,7 @@ namespace Esercitazione30AprileC_.Services
             {
                 NomUte = temp.NomeUtente,
                 Con = temp.Contenuto,
-                Sta = temp.Stanza,
+                Sta = room.GetByObjectId(temp.Stanza).Nome,
                 Ora = temp.Orario
             };
         }

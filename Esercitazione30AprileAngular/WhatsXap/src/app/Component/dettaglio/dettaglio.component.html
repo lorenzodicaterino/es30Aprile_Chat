@@ -1,0 +1,54 @@
+<div
+  class="container"
+  style="width: 100%; text-align: center; margin-left: 140px"
+>
+  <div class="row" style="margin-top: 30px">
+    <div class="col-2" style="text-align: left">
+      <button class="btn" style="text-align: left" (click)="tornaAChat()">
+        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+      </button>
+    </div>
+    <div class="col-4" style="text-align: left; margin-left: 288px">
+      <h1>{{ nomeChat }}</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <hr style="margin-top: 20px; margin-bottom: 10px" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h4>{{ stanzaOgg.des }}, {{ stanzaOgg.cre }}</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <p>{{ stanzaOgg.dat }}</p>
+      <hr />
+    </div>
+  </div>
+
+  <div class="row" style="margin-top: 10px">
+    <div class="col">
+      <table class="table">
+        <thead>
+          <th style="font-size: 15px">Lista partecipanti</th>
+        </thead>
+        <tbody *ngFor="let item of stanzaOgg.par">
+          <tr>
+            <td style="font-size: 15px">{{ item }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <button
+    class="btn btn-danger"
+    style="width: 100%; margin-top: 10px; margin-bottom: 10px"
+    (click)="abbandonaGruppo(nomeUtente, nomeChat)"
+  >
+    Abbandona
+  </button>
+</div>

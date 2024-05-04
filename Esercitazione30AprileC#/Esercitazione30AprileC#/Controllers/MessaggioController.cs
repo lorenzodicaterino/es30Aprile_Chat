@@ -18,9 +18,9 @@ namespace Esercitazione30AprileC_.Controllers
         }
 
         [HttpPost]
-        public IActionResult InserisciMessaggio(string stanza, MessaggioDTO mex)
+        public IActionResult InserisciMessaggio(MessaggioDTO mex)
         {
-            if (service.InserisciMessaggio(stanza, mex))
+            if (service.InserisciMessaggio(mex))
                 return Ok(service.AssegnaMessaggio());
             else
                 return Ok(new Risposta()

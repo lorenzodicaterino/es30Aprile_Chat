@@ -1,0 +1,42 @@
+<div style="text-align: center; margin-left: 270px; margin-top: 50px">
+  <h2>Crea stanza</h2>
+
+  <div class="container" style="width: 100%; margin-top: -10px">
+    <div class="row">
+      <div class="col">
+        <label for="nomeChat"></label>
+        <input
+          class="form-control"
+          id="nomeChat"
+          placeholder="Inserisci nome stanza..."
+          [(ngModel)]="nomeChat"
+          name="nomeChat"
+        />
+      </div>
+    </div>
+
+    <div class="row" style="margin-top: -10px">
+      <div class="col">
+        <label for="descrizioneChat"></label>
+        <input
+          class="form-control"
+          placeholder="Inserisci descrizione..."
+          id="descrizioneChat"
+          [(ngModel)]="descrizioneChat"
+        />
+      </div>
+    </div>
+
+    <div class="row" style="margin-top: 20px">
+      <div class="col">
+        <button
+          class="btn btn-success"
+          (click)="creaChat()"
+          style="width: 100%"
+        >
+          Crea
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -80,7 +80,7 @@ namespace Esercitazione30AprileC_.Controllers
         }
 
 
-        [HttpDelete]
+        [HttpDelete("elimina")]
         public IActionResult Elimina(UtenteDTO utente)
         {
             if (_serviceutenti.EliminaPerNome(utente))
@@ -103,6 +103,21 @@ namespace Esercitazione30AprileC_.Controllers
                 Status = "SUCCESS",
                 Data = _serviceutenti.RestituisciTutto()
             });
+        }
+
+        [HttpGet("check_jwt/{jwt}/{username}")]
+        public IActionResult CheckJwt(string jwt, string username)
+        {
+            if (_serviceutenti.CheckJwt(jwt, username))
+                return Ok(new Risposta()
+                {
+                    Status = "SUCCESS"
+                });
+            else
+                return Ok(new Risposta()
+                {
+                    Status = "ERROR"
+                });
         }
     }
 }

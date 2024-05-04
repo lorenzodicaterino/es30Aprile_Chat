@@ -10,7 +10,7 @@ namespace Esercitazione30AprileC_.dtos
         public string? NomUte { get; set; }
 
         [StringLength(250)]
-        public ObjectId? Sta { get; set; }
+        public string? Sta { get; set; }
 
         [Required]
         public string? Con { get; set; }

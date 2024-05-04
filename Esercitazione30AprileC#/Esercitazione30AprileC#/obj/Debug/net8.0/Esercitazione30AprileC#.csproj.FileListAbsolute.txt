@@ -154,3 +154,4 @@ C:\Users\utente\Desktop\esercitazioni\es30Aprile\Esercitazione30AprileC#\Esercit
 C:\Users\utente\Desktop\esercitazioni\es30Aprile\Esercitazione30AprileC#\Esercitazione30AprileC#\obj\Debug\net8.0\Esercitazione30AprileC#.pdb
 C:\Users\utente\Desktop\esercitazioni\es30Aprile\Esercitazione30AprileC#\Esercitazione30AprileC#\obj\Debug\net8.0\Esercitazione30AprileC#.genruntimeconfig.cache
 C:\Users\utente\Desktop\esercitazioni\es30Aprile\Esercitazione30AprileC#\Esercitazione30AprileC#\obj\Debug\net8.0\ref\Esercitazione30AprileC#.dll
+C:\Users\utente\Desktop\esercitazioni\es30Aprile\Esercitazione30AprileC#\Esercitazione30AprileC#\obj\Debug\net8.0\Esercitazione30AprileC#.sourcelink.json

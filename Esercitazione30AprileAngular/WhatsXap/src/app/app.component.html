@@ -1,0 +1,74 @@
+<header>
+  <nav
+    class="navbar navbar-expand-lg navbar-light"
+    style="background-color: #25d366"
+  >
+    <div *ngIf="token; else normale">
+      <a class="navbar-brand">WhatsXap</a>
+    </div>
+    <ng-template #normale>
+      <a class="navbar-brand">WhatsXap</a>
+    </ng-template>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="collapse navbar-collapse"
+      id="navbarNav"
+      style="font-size: 15px"
+    >
+      <ul class="navbar-nav" style="align-items: center">
+        <div *ngIf="!token; else Login">
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="true" routerLink="/login"
+              >Login</a
+            >
+          </li>
+        </div>
+        <ng-template #Login> </ng-template>
+
+        <div *ngIf="!token; else registrati">
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="true" routerLink="/registrati"
+              >Registrati</a
+            >
+          </li>
+        </div>
+        <ng-template #registrati></ng-template>
+
+        <div *ngIf="token; else Profilo">
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="true" routerLink="/profilo"
+              >Profilo</a
+            >
+          </li>
+        </div>
+        <ng-template #Profilo></ng-template>
+
+        <li style="margin-left: 1150px">
+          <button
+            class="btn btn-secondary"
+            type="button"
+            (click)="redirectLogin()"
+          >
+            <i class="fa fa-sign-out" aria-hidden="true"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<main>
+  <div class="container ml-1">
+    <router-outlet></router-outlet>
+  </div>
+</main>

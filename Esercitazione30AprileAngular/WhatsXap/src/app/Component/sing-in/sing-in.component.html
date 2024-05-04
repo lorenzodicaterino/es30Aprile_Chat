@@ -1,0 +1,42 @@
+<div
+  class="row"
+  style="
+    align-items: center;
+    vertical-align: middle;
+    margin-top: 100px;
+    margin-left: 170px;
+  "
+>
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
+    <h1 style="text-align: center">Registrati</h1>
+    <div class="form-group">
+      <label for="input-user">Username</label>
+      <input
+        type="text"
+        class="form-control"
+        id="input-user"
+        [(ngModel)]="username"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="input-pass">Password</label>
+      <input
+        type="password"
+        class="form-control"
+        id="input-pass"
+        [(ngModel)]="password"
+        required
+      />
+    </div>
+    <button
+      type="button"
+      class="btn btn-primary"
+      (click)="salva()"
+      style="width: 289px"
+    >
+      Registrati
+    </button>
+  </div>
+</div>
