@@ -15,6 +15,8 @@ export class DettaglioComponent {
     /["]+/g,
     ''
   );
+  handleInterval: any;
+
   constructor(
     private service: ChatService,
     private rottaAttiva: ActivatedRoute,
@@ -26,12 +28,14 @@ export class DettaglioComponent {
       this.nomeChat = parametro['code'];
     });
 
-    this.service
-      .dettaglioStanza(<string>this.nomeChat)
-      .subscribe((risultato) => {
-        this.stanzaOgg = risultato.data;
-        console.log(this.stanzaOgg);
-      });
+    this.handleInterval = setInterval(() => {
+      this.service
+        .dettaglioStanza(<string>this.nomeChat)
+        .subscribe((risultato) => {
+          this.stanzaOgg = risultato.data;
+          console.log(this.stanzaOgg);
+        });
+    }, 50);
   }
 
   tornaAChat(): void {
@@ -45,5 +49,9 @@ export class DettaglioComponent {
       console.log(risultato.status);
       this.route.navigateByUrl('profilo');
     });
+  }
+
+  ngOnDestroy(): void {
+    clearInterval(this.handleInterval);
   }
 }

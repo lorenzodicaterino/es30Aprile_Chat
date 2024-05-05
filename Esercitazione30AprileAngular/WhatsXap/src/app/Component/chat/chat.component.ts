@@ -24,6 +24,7 @@ export class ChatComponent implements OnInit {
     /["]+/g,
     ''
   );
+  handleInterval: any;
   messaggioInput: string | undefined;
 
   backToProfilo(): void {
@@ -37,9 +38,13 @@ export class ChatComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    document.body.className = 'selector';
     this.rottaAttiva.params.subscribe((parametro) => {
       this.nomeChat = parametro['code'];
     });
+    this.handleInterval = setInterval(() => {
+      this.stampaMessaggi(<string>this.nomeChat);
+    }, 50);
 
     this.stampaMessaggi(<string>this.nomeChat);
   }
@@ -53,8 +58,12 @@ export class ChatComponent implements OnInit {
       )
       .subscribe((risultato) => {
         console.log(risultato.status);
+        window.scrollTo(0, document.body.scrollHeight);
       });
+  }
 
-    location.replace('/chat/' + this.nomeChat);
+  ngOnDestroy(): void {
+    document.body.className = '';
+    clearInterval(this.handleInterval);
   }
 }

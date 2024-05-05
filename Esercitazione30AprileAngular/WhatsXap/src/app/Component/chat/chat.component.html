@@ -10,7 +10,10 @@
     </div>
     <div class="col-9">
       <h2>
-        <a class="btn" href="dettaglio/{{ nomeChat }}"
+        <a
+          class="btn btn-outline"
+          href="dettaglio/{{ nomeChat }}"
+          style="background-color: white"
           ><h3>{{ nomeChat }}</h3></a
         >
       </h2>
@@ -26,9 +29,16 @@
     *ngIf="nomeUtente == item.nomUte; else altro"
     style="width: 100%"
   >
-    <div class="row">
+    <div class="row" style="margin-bottom: 60px">
       <div class="col-8"></div>
-      <div class="col-4" style="border: 0.5px solid black">
+      <div
+        class="col-4"
+        style="
+          border: 0.5px solid black;
+          background-color: white;
+          border-radius: 5%;
+        "
+      >
         <p>
           <b>{{ item.nomUte }}</b>
         </p>
@@ -39,8 +49,15 @@
   </div>
 
   <ng-template #altro>
-    <div class="row" style="margin-left: 0px">
-      <div class="col-4" style="border: 0.5px solid black">
+    <div class="row" style="margin-left: 0px; margin-bottom: 60px">
+      <div
+        class="col-4"
+        style="
+          border: 0.5px solid black;
+          background-color: white;
+          border-radius: 5%;
+        "
+      >
         <p>
           <b>{{ item.nomUte }}</b>
         </p>
@@ -51,7 +68,7 @@
     </div>
   </ng-template>
 </div>
-<hr style="margin-top: 40px; background-color: #fafafa" />
+
 <div
   class="container"
   style="
@@ -60,20 +77,23 @@
     bottom: 0;
     width: 100%;
     height: 50px;
-    background-color: #fafafa;
-  "
+    background-image: https://www.pheunix.co.in/wp-content/uploads/2017/10/whatsapp-bg.png"
 >
   <div class="row">
     <div class="col-11">
       <input
         class="form-control"
         placeholder="Inserisci un messaggio"
-        style="width: 100%"
+        style="width: 100%; border: 1px solid black"
         [(ngModel)]="messaggioInput"
       />
     </div>
     <div class="col-1" style="text-align: center">
-      <button class="btn" (click)="inviaMessaggioComponent()">
+      <button
+        class="btn"
+        (click)="inviaMessaggioComponent()"
+        style="border: 1px solid black"
+      >
         <i class="fa fa-paper-plane" aria-hidden="true"></i>
       </button>
     </div>

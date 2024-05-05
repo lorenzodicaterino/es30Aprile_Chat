@@ -41,7 +41,7 @@
               <tr *ngFor="let room of rooms" style="text-align: center">
                 <td style="margin-top: 4px">
                   <h4>
-                    <a href="/chat/{{ room.nom }}"
+                    <a href="/chat/{{ room.nom }}" style="color: blue"
                       >{{ room.nom }} - {{ room.des }}</a
                     >
                   </h4>
@@ -58,9 +58,9 @@
             <tbody>
               <tr *ngFor="let room of tutte" style="text-align: center">
                 <td style="margin-top: 4px">
-                  <button (click)="modaleAggiunta(room.nom)">
+                  <a style="color: blue" (click)="modaleAggiunta(room.nom)">
                     <h4>{{ room.nom }} - {{ room.des }}</h4>
-                  </button>
+                  </a>
                 </td>
               </tr>
             </tbody>

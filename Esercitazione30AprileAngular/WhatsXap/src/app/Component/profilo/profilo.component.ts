@@ -22,6 +22,7 @@ export class ProfiloComponent {
   codice: ObjectId | undefined;
   rooms: Room[] | undefined = new Array();
   tutte: Room[] | undefined = new Array();
+  handleInterval: any;
 
   constructor(
     private router: Router,
@@ -30,6 +31,8 @@ export class ProfiloComponent {
   ) {
     if (!localStorage.getItem('ilToken')) router.navigateByUrl('/login');
   }
+
+  recuperaStanze(): void {}
 
   ngOnInit(): void {
     this.app.checkToken();
