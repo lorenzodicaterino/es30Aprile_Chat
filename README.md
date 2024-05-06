@@ -22,3 +22,7 @@ passw VARCHAR(250) NOT NULL,
 deleted DATETIME DEFAULT NULL
 );
 ```
+
+<video width="320" height="240" controls>
+  <source src="WhatsApp Video 2024-05-06 at 13.14.53.mp4" type="video/mp4">
+</video>

@@ -35,9 +35,15 @@ export class ChatComponent implements OnInit {
     this.service.stampaMessaggi(nomeChat).subscribe((risultato) => {
       this.messaggi = risultato.data;
     });
+    setTimeout(() => {
+      window.scrollTo(0, document.body.scrollHeight);
+    }, 50);
   }
 
   ngOnInit(): void {
+    setTimeout(() => {
+      window.scrollTo(0, document.body.scrollHeight);
+    }, 50);
     document.body.className = 'selector';
     this.rottaAttiva.params.subscribe((parametro) => {
       this.nomeChat = parametro['code'];

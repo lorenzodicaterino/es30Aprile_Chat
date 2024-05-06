@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\dtos\\messaggiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\dtos\\messaggiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\dtos\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\dtos\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\repository\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\repository\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\controllers\\messaggiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\controllers\\messaggiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\dtos\\messaggiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\dtos\\messaggiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\dtos\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|solutionrelative:esercitazione30aprilec#\\dtos\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DAB7472-6433-4FEC-A950-43DB12E5B98D}|Esercitazione30AprileC#\\Esercitazione30AprileC#.csproj|c:\\users\\utente\\desktop\\esercitazioni\\es30aprile\\esercitazione30aprilec#\\esercitazione30aprilec#\\controllers\\utentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "RoomController.cs",
               "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Controllers\\RoomController.cs",
               "RelativeDocumentMoniker": "Esercitazione30AprileC#\\Controllers\\RoomController.cs",
@@ -102,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "RoomService.cs",
               "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Services\\RoomService.cs",
               "RelativeDocumentMoniker": "Esercitazione30AprileC#\\Services\\RoomService.cs",
@@ -114,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "MessaggioService.cs",
               "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Services\\MessaggioService.cs",
               "RelativeDocumentMoniker": "Esercitazione30AprileC#\\Services\\MessaggioService.cs",
@@ -126,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "MessaggioDTO.cs",
               "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\dtos\\MessaggioDTO.cs",
               "RelativeDocumentMoniker": "Esercitazione30AprileC#\\dtos\\MessaggioDTO.cs",
@@ -134,11 +134,12 @@
               "RelativeToolTip": "Esercitazione30AprileC#\\dtos\\MessaggioDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T08:21:01.775Z"
+              "WhenOpened": "2024-05-03T08:21:01.775Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "RoomDTO.cs",
               "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\dtos\\RoomDTO.cs",
               "RelativeDocumentMoniker": "Esercitazione30AprileC#\\dtos\\RoomDTO.cs",
@@ -150,20 +151,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "RoomRepository.cs",
               "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Repository\\RoomRepository.cs",
               "RelativeDocumentMoniker": "Esercitazione30AprileC#\\Repository\\RoomRepository.cs",
               "ToolTip": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Repository\\RoomRepository.cs",
               "RelativeToolTip": "Esercitazione30AprileC#\\Repository\\RoomRepository.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAIwDEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T17:27:43.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T17:27:43.91Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MessaggioRepository.cs",
               "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Repository\\MessaggioRepository.cs",
               "RelativeDocumentMoniker": "Esercitazione30AprileC#\\Repository\\MessaggioRepository.cs",
@@ -175,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\appsettings.json",
               "RelativeDocumentMoniker": "Esercitazione30AprileC#\\appsettings.json",
@@ -187,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MessaggioController.cs",
               "DocumentMoniker": "C:\\Users\\utente\\Desktop\\esercitazioni\\es30Aprile\\Esercitazione30AprileC#\\Esercitazione30AprileC#\\Controllers\\MessaggioController.cs",
               "RelativeDocumentMoniker": "Esercitazione30AprileC#\\Controllers\\MessaggioController.cs",
