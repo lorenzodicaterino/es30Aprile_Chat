@@ -23,4 +23,8 @@ deleted DATETIME DEFAULT NULL
 );
 ```
 
-https://youtu.be/s9tVVW0e0Yo
+https://github.com/lorenzodicaterino/es30Aprile_Chat/assets/126332555/7e3b992a-3580-4584-8364-19541c5ccb11
+
+
+
+
