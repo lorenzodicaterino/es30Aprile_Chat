@@ -23,6 +23,4 @@ deleted DATETIME DEFAULT NULL
 );
 ```
 
-<video controls>
-  <source src="Senza_titolo_2.mp4" type="video/mp4">
-</video>
+https://youtu.be/s9tVVW0e0Yo

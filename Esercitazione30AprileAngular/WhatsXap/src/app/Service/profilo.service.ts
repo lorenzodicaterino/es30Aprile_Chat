@@ -12,9 +12,7 @@ export class ProfiloService {
 
   recuperaProfilo(): Observable<Risposta> {
     let contenutoToken = localStorage.getItem('ilToken');
-    let nomeUtente: string = JSON.stringify(
-      localStorage.getItem('username')
-    ).replace(/["]+/g, '');
+    let nomeUtente: string;
     let headerCustom = new HttpHeaders({
       Authorization: `Bearer ${contenutoToken}`,
     });
